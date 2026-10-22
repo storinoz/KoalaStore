@@ -1,0 +1,25 @@
+.gradle/
+.kotlin/
+.idea/
+local.properties
+**/build/
+*.jks
+*.keystore
+signing/
+base files/
+releases/
+*.db
+*.db-wal
+*.db-shm
+.local/
+
+# Registros de trabalho locais; fora da distribuição pública.
+/AGENTS.md
+/ARQUIVOS-*.md
+/VERIFICACAO*.md
+/PENDENCIAS-PROXIMA-SESSAO.md
+
+# Não incorporar catálogos pessoais nas versões distribuídas.
+app/src/main/assets/legacy_catalog*.json
+*.sqlite
+*.sqlite3
